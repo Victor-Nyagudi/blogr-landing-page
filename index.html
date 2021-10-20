@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <div class="navbar__logo-hamburger">
+        <a href="#">
+          <img src="./images/logo.svg" alt="" class="logo" aria-hidden="true" aria-label="Home">
+        </a>
+        
+        <button type="button" class="navbar__hamburger-menu" aria-label="hamburger menu">
+        </button>
+      </div>
+
+      <ul class="navbar__links container">
+        <div class="navbar__links--primary container">
+          <li>
+            <button type="button" class="navbar__button navbar__button--product">
+              Product
+            </button>
+
+            <div class="dropdown-menu dropdown-menu--product">
+              <ul class="dropdown-menu__links">
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Overview
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Pricing
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Marketplace
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Features
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Integrations
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          
+          <li>
+            <button type="button" class="navbar__button navbar__button--company">
+              Company
+            </button>
+
+            <div class="dropdown-menu dropdown-menu--company">
+              <ul class="dropdown-menu__links">
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    About
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Team
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Blog
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Careers
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          
+          <li>
+            <button type="button" class="navbar__button navbar__button--connect">
+              Connect
+            </button>
+
+            <div class="dropdown-menu dropdown-menu--connect">
+              <ul class="dropdown-menu__links">
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Contact
+                  </a>
+                </li>
+               
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    Newsletter
+                  </a>
+                </li>
+               
+                <li>
+                  <a href="#" class="dropdown-menu__link">
+                    LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </div>
+
+        <div class="navbar__links--secondary container">
+          <li>
+            <a href="#" class="navbar__link navbar__link--login">
+              Login
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="navbar__link navbar__link--sign-up">
+              Sign Up
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="hero container">
+      <h1 class="hero__title">
+        A modern publishing platform
+      </h1>
+      
+      <p class="hero__message">
+        Grow your audience and build your online brand
+      </p>
+      
+      <div class="hero__cta">
+        <a href="#" class="cta cta__start-free">
+          Start for Free
+        </a>
+        
+        <a href="#" class="cta cta__learn-more">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="first-section container">
+      <h2 class="first-section__title">
+        Designed for the future
+      </h2>
+      
+      <div class="first-section__container">
+          <div class="first-section__image-container">
+            <picture>
+              <source media="(max-width: 1000px)" srcset="./images/illustration-editor-mobile.svg">
+              <source media="(min-width: 1001px)" srcset="./images/illustration-editor-desktop.svg">
+              <img src="./images/illustration-editor-desktop.svg" alt="" class="editor-image" aria-hidden="true">
+            </picture>
+          </div>
+
+          <div class="first-section__first-text">
+            <h3 class="first-text__title">
+              Introducing an extensible editor
+            </h3>
+            
+            <p class="first-text__message">
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.
+            </p>
+        </div>
+        
+        <div class="first-section__second-text">
+          <h3 class="second-text__title">
+            Robust content management
+          </h3>
+          
+          <p class="second-text__message">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section">
+      <div class="second-section__container">
+        <div class="second-section__image-container">
+            <img src="./images/illustration-phones.svg" alt="" class="phones" aria-hidden="true">
+        </div>
+        
+        <div class="second-section__text container">
+          <h2 class="second-section__title">
+            State of the Art Infrastructure
+          </h2>
+          
+          <p class="secon-section__message">
+            With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-section container">
+      <div class="third-section__image-container">
+        <picture>
+          <source media="(max-width: 1000px)" srcset="./images/illustration-laptop-mobile.svg">
+          <source media="(min-width: 1001px)" srcset="./images/illustration-laptop-desktop.svg">
+          <img src="./images/illustration-laptop-desktop.svg" alt="" class="laptop-image" aria-hidden="true">
+        </picture>
+      </div>
+      
+      <div class="third-section__first-text">
+        <h3 class="first-text__title">
+          Free, open, simple
+        </h3>
+        
+        <p class="first-text__message">
+          Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+        </p>
+      </div>
+      
+      <div class="third-section__second-text">
+        <h3 class="second-text__title">
+          Powerful tooling
+        </h3>
+        
+        <p class="second-text__message">
+          Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.
+        </p>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__flex container">
+      <div class="footer__container--logo">
+        <img src="./images/logo.svg" alt="" aria-hidden="true">
+      </div>
+      
+      <div class="footer__container">
+        <h4 class="footer__title">
+          Product
+        </h4>
+        
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">
+              Overview
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Pricing
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Marketplace
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Features
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Integrations
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="footer__container">
+        <h4 class="footer__title">
+          Company
+        </h4>
+        
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">
+              About
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Team
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Blog
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Careers
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="footer__container">
+        <h4 class="footer__title">
+          Connect
+        </h4>
+        
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">
+              Contact
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              Newsletter
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer__link">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
