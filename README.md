@@ -37,8 +37,8 @@ I've included 4 screenshots in the `/screenshots` folder: mobile, tablet, deskto
 
 I'll update these links once I submit my solution. 
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-flexbox-and-bem-UssRPhkLN#comment-61701a127f0dd1434ed59940)
+- [Live Site URL](https://victor-nyagudi.github.io/blogr-landing-page/)
 
 ## My process
 
